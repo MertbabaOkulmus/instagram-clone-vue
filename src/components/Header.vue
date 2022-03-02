@@ -1,5 +1,6 @@
 <template>
   <header>
+    <router-link to="/">Instagram</router-link>
     <router-link to="/">Home</router-link> |
     <router-link to="/profile">Profil</router-link> |
     <router-link to="/explore">Explore</router-link> |
