@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <Container class="header-inner">
-      <router-link to="/">
+      <router-link to="/" class="logo">
         <img
           alt="Instagram"
           class="s4Iyt"
@@ -122,32 +122,64 @@ export default {
 </script>
 <style scoped>
 .header {
+  z-index: 90;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: white;
   border-bottom: 1px solid rgb(var(--b6a));
 }
 .header-inner {
-  height: 57px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  height: var(--header-height);
   align-items: center;
+  justify-content: center;
+  display: flex;
+
+  @media (--t) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
+
 .search {
-  text-align: center;
-  input {
-    width: 215px;
-    height: 28px;
-    border: 1px solid rgb(var(--b6a));
-    background-color: rgb(var(--b3f));
-    border-radius: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
+  display: none;
+  @media (--t) {
+    display: block;
+    text-align: center;
+    input {
+      width: 215px;
+      height: 28px;
+      border: 1px solid rgb(var(--b6a));
+      background-color: rgb(var(--b3f));
+      border-radius: 4px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 }
 .navigation {
+  z-index: 90;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: white;
+  border-top: 1px solid rgb(var(--b6a));
+  height: 120px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  a {
-    margin-left: 20px;
+  justify-content: space-around;
+  @media (--t) {
+    border: 0px;
+    height: auto;
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      margin-left: 20px;
+    }
   }
 }
 </style>
