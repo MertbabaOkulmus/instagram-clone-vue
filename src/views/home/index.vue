@@ -1,215 +1,238 @@
 <template>
-  <div>
-    <div class="home"><h1>Home</h1></div>
-    <CustomText class="a3 xxsmall"> Merhaba Dünya </CustomText>
-    <CustomText :tag="'h1'" class="a1 normal"> Merhaba Dünya </CustomText>
-    <CustomText :tag="'button'" class="a2 xsmall"> Merhaba Dünya </CustomText>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-      repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
-      voluptatem maxime provident magni officia eaque fuga porro quis neque
-      nihil nobis.
-    </p>
+  <div class="home">
+    <div class="timeline">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        repudiandae a, incidunt eveniet recusandae nostrum sit earum, ad
+        voluptatem maxime provident magni officia eaque fuga porro quis neque
+        nihil nobis.
+      </p>
+    </div>
+    <div class="sidebar">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est
+        repellat provident dicta molestiae iure! Fugit animi itaque quibusdam
+        consequatur quia, excepturi inventore dicta, perspiciatis esse
+        repudiandae fuga iure minus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est
+        repellat provident dicta molestiae iure! Fugit animi itaque quibusdam
+        consequatur quia, excepturi inventore dicta, perspiciatis esse
+        repudiandae fuga iure minus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est
+        repellat provident dicta molestiae iure! Fugit animi itaque quibusdam
+        consequatur quia, excepturi inventore dicta, perspiciatis esse
+        repudiandae fuga iure minus.
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
-import CustomText from "@/components/CustomText.vue";
 export default {
   name: "HomeView",
-  components: {
-    CustomText,
-  },
+  components: {},
 };
 </script>
 <style scoped>
-.a1 {
-  color: rgb(var(--ba8));
-}
-.a2 {
-  color: rgb(var(--b3f));
-}
-.a3 {
-  color: rgb(var(--d19));
+.home {
+  max-width: 605px;
+  margin-left: auto;
+  margin-right: auto;
+  .sidebar {
+    display: none;
+  }
+  @media (--t) {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 1fr 295px;
+    grid-gap: 30px;
+    .sidebar {
+      display: block;
+    }
+  }
 }
 </style>
